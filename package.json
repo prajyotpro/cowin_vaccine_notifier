@@ -1,0 +1,17 @@
+{
+  "name": "cowin_vaccine_notifier",
+  "version": "1.0.0",
+  "description": "App to check availability of slots based on selected search options.",
+  "main": "index.js $npm_config_date $npm_config_district $npm_config_age $npm_config_dose",
+  "scripts": {
+    "search": "node index.js"
+  },
+  "author": "Prajyot Khandeparkar",
+  "license": "Apache License 2.0",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "dotenv": "^9.0.2",
+    "mailgun-js": "^0.22.0",
+    "minimist": "^1.2.5"
+  }
+}
