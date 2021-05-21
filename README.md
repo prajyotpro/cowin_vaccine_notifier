@@ -26,11 +26,15 @@ The code is written in JavaScript and you can run it on node.js
 – so that any developer can adapt and make changes to it
 
 ### The Setup
+```
 – Install node.js
 – git clone https://github.com/prajyotpro/cowin_vaccine_notifier.git
 – cd cowin_vaccine_notifier
 – cp .env_example .env
 – add configuration to .env
+```
+
+.env
 ```
 ENABLE_MAILGUN=false
 MAILGUN_API_KEY=mailgun api key
